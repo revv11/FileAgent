@@ -5,7 +5,7 @@ const servicekeyenv = process.env.FIREBASE_SERVICE_KEY
 let serviceKey
 if(servicekeyenv){
 
-    serviceKey = JSON.parse(servicekeyenv) 
+    serviceKey = JSON.parse(servicekeyenv?? "") 
 }
 else{
     serviceKey = require("./service_key.json")
