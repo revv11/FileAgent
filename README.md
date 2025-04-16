@@ -1,3 +1,17 @@
+##FileAgent
+- An AI agent for interacting with a pdf file.
+- Built a full-stack web application using Next.js, implementing API routes
+for smooth and responsive user interactions.
+- Integrated Google OAuth using Clerk for secure and scalable
+authentication.
+- Leveraged the LangChain framework with Gemini API to generate
+embeddings and intelligent text-based responses from PDFs.
+- Utilized Pinecone as the vector database for efficient semantic search
+and retrieval.
+- Managed application data using Firebase Firestore and Edge Store,
+ensuring real-time performance and scalability.
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
